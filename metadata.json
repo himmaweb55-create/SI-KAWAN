@@ -1,0 +1,11 @@
+{
+  "name": "AuraLens - AI AR Photo Tourism & Landmark Intelligence",
+  "description": "Snap or upload city photos to recognize landmarks with Gemini 4 Argon, fetch live history via Google Search grounding, and experience immersive AR-narrated clips with Gemini 3.8 Flash TTS.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
