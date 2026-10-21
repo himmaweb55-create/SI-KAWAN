@@ -455,4 +455,10 @@ async function startServer() {
   });
 }
 
-startServer();
+// Only start listening if not in Vercel serverless function environment
+if (!process.env.VERCEL) {
+  startServer();
+}
+
+export default app;
+
